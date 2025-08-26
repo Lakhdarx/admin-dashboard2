@@ -1,0 +1,54 @@
+:root {
+    --blue: #1992d4;
+    --yellow: #f0b429;
+    --gray: #e2e8f0;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-VariableFont_wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Italic-VariableFont_wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+body {
+    font-family: 'Work Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: "sidebar header"
+    "sidebar main";
+}
+
+
+
+
+.sidebar {
+    background-color:var(--blue);
+    grid-area: sidebar;
+}
+
+
+.main {
+    background-color: var(--gray);
+    grid-area: main;
+}
+
+
+.header {
+    grid-area: header;
+    background-color: white;
+}
