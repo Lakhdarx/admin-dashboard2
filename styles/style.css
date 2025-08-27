@@ -420,10 +420,27 @@ button:hover {
 
 
 .projects svg {
-    transition: fill 0.4s;
+    transition: all 0.4s;
     cursor: pointer;
 }
 
 .projects svg:hover {
     fill: var(--yellow);
+    transform: scale(1.2);
+}
+
+.project-card {
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: scale(1.025);
+}
+
+.announcements .card:hover,
+.trending .card:hover,
+.sidebar h3,
+.logo h2 {
+    cursor: pointer;
 }
