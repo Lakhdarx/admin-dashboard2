@@ -359,7 +359,6 @@ body {
 .announcements h5 {
     font-weight: 600;
     font-size: 1.1rem;
-    /* margin: 0; */
 
 }
 
@@ -368,4 +367,38 @@ body {
     margin: 0;
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+
+.trending img {
+    width: 55px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.trending-cards {
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 8px;
+}
+
+.trending-cards .card {
+    display: flex;
+    align-items: cen;
+    gap: 20px;
+}
+
+.trending-cards p {
+    font-size: 1rem;
+    opacity: 0.5;
+    margin: 0;
+}
+.trending-cards h6 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.trending-cards .card:not(:last-child) {
+    margin-bottom: 25px;
 }
