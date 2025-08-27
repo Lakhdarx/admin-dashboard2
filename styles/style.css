@@ -243,3 +243,20 @@ body {
     justify-content: start;
     gap: 20px;
 }
+
+
+/* Header shadow */
+.header {
+    z-index: 2;
+    box-shadow: 0 2px 5px -4px #000;
+}
+
+.sidebar {
+    z-index: 1;
+}
+
+.main {
+    z-index: 0;
+}
+
+
